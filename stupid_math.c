@@ -3,7 +3,7 @@
 float mean(int a, int b){
     return (a + b) / 2;
 }
-//comm2
+//comm3
 complex_float_t commplex_mean(complex_int_t a, complex_int_t b){
     complex_float_t res = {0, 0};
     res.re = mean(a.re, b.re);
